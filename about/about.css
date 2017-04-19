@@ -1,0 +1,181 @@
+body{
+	margin: 0 auto;
+	padding:0;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+	
+}
+h1{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+.topbar {
+	height: 100px;
+	width: 100%;
+	position: relative;
+}
+.logo{
+	position: absolute;
+	height: 60px;
+	margin-left: 150px;
+	width: 100px;
+	padding: 20px 0;
+
+}
+.logo img{
+	height: 100%;
+	width: 100px;
+}
+
+.nav {
+	height: 100px;
+	float: right;
+	width: 100%;
+}
+.nav ul {
+	height: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191a1c;
+}
+
+.nav li {
+    float: right;
+    padding: 35px 30px;
+}
+
+.nav li a {
+    display: block;
+    color: #fb9840;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav li a:hover {
+    color: #FCFCFC;
+    font-weight: 600;
+}
+.nav li:first-child{
+	margin-right: 150px;
+}
+
+.color {
+	color: red;
+    font-weight: 700;
+}
+
+.about{
+	background-color: #fb9840;
+	height: 500px;
+}
+
+.main{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+    color: #191a1c;
+}
+
+.main h1{
+	color: #191a1c;
+	padding-top: 30px;
+    
+}
+.main p{
+	padding: 20px;
+    color: #191a1c;
+    text-align: justify;
+    
+}
+
+.team{
+	background-color: #fcfcfc;
+	padding-top: 0px;
+	height: auto;
+}
+.team img {
+	border-radius: 50px;
+}
+.team h1{
+	color: #191a1c;
+	padding: 15px;
+}
+.team h2{
+	color: #191a1c;
+}
+.team1 {
+	width: 100%;
+	margin-top: 50px;
+	height:270px;
+}
+
+.e1 {
+
+	float: left;
+	width: 325px;
+	text-align: center;
+}
+
+.e2 {
+	float: left;
+	width: 325px;
+	
+	text-align: center;
+}
+
+.e3 {
+	float: left;
+	width: 325px;
+	text-align: center;
+}
+.team1 img{
+	padding-top: 12px;
+	width: 200px;
+	height: 150px
+}
+
+.team2 {
+	width: 100%;
+	margin-top: 40px;
+    margin-bottom: 20px;
+	height: 270px;
+}
+
+.e4 {
+	float: left;
+	width: 325px;
+	text-align: center;
+}
+
+.e5 {
+	float: left;
+	width: 325px;
+	text-align: center;
+}
+
+.e6 {
+	float: left;
+	width: 325px;
+	text-align: center;
+}
+.team2 img{
+	padding-top: 12px;
+	width: 200px;
+	height: 150px
+}
+.footer {
+	margin-top: 0;
+	padding: 30px;
+	background-color: #191a1c;
+	color: #fb9840;
+    font-weight: 600;
+}
+.footer p{
+	text-align:center;
+    font-weight: 600;
+}

@@ -1,0 +1,220 @@
+body{
+	margin: 0 auto;
+	padding:0;
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+}
+.topbar {
+	height: 100px;
+	width: 100%;
+	position: relative;
+}
+.logo{
+	position: absolute;
+	height: 60px;
+	margin-left: 150px;
+	width: 100px;
+	padding: 20px 0;
+
+}
+.logo img{
+	height: 100%;
+	width: 100px;
+}
+
+.nav {
+	height: 100px;
+	float: right;
+	width: 100%;
+}
+.nav ul {
+	height: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #191a1c;
+}
+
+.nav li {
+    float: right;
+    padding: 35px 30px;
+}
+
+.nav li a {
+    display: block;
+    color: #fb9840;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav li a:hover {
+    color: #FCFCFC;
+    font-weight: 600;
+}
+.nav li:first-child{
+	margin-right: 150px;
+}
+.color {
+	color: red;
+    font-weight: 700;
+}
+
+
+.slider {
+	width: 100%;
+}
+#slider_image img{
+	width: 100%;
+    height: 450px;
+	margin-top: 0px;
+}
+
+
+.wrapper {
+	height: auto;
+	width: 100%;
+	background-color: #fb9840;
+	color: #191a1c;
+}
+.brief{
+	height: auto;
+	margin: 0 auto;
+	text-align: center;
+	width: 800px;
+	padding: 100px 200px;
+}
+.brief img{
+	height: 6px;
+	width: 150px;
+}
+.brief p{
+	line-height: 25px;
+    text-align: justify;
+}
+.btn{
+	margin-top: 0;
+	text-align: center;
+    font-size: 18px;
+	padding-bottom: 80px;
+}
+.btn a{
+	display: inline;
+	text-align:center; 
+	box-shadow: 5px 5px 5px #000;
+	border-radius: 5px 5px 5px 5px;
+	padding: 10px 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #f7eccb;
+	background-color: #FF1709;
+    font-weight: 600;
+}
+.btn a:hover{
+	background-color: #292e2f;
+    color: #f7eccb;
+    font-weight: 600;
+}
+
+.service_wrapper{
+	margin: 0 auto;
+	width: 100%;
+    padding: 0;
+	background: #fcfcfc;
+	text-align: center;
+	color: #191a1c;
+}
+
+.service {
+	padding: 20px 0px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 auto;
+	width: 1200px;
+	height: auto;
+}
+.service img{
+	padding-bottom: 5px;	
+}
+
+.service h1{
+	font-weight: 400;
+	margin-top: 0px;
+}
+
+.service_portfolio {
+
+	width: 100%;
+    margin-top: 50px;
+
+}
+.service_portfolio2 {
+
+	width: 100%;
+}
+
+.hp{
+	padding: 10px;
+	background-color: #fcfcfc;
+	border-radius: 10px 10px 10px 10px;
+}
+.service_classification {
+	margin-top: 30px;
+	height: 340px;
+	float: left;
+	width: 230px;
+	text-align: center;
+	margin-right: 30px;
+	padding: 0 20px;
+}
+.service_classification:last-child {
+	margin-right: 0;
+}
+.line {
+	height: 6px;
+	width: 150px;
+}
+
+.cta {
+	padding: 10px;
+	background-color: #292e2f;
+	height: 100px;
+    color: #f7eccb;
+}
+.cta p{
+	font-size: 25px;
+	text-align:center; 
+	line-height: 50px;
+}
+
+.cta a{
+	font-size: 16px;
+	display: inline;
+	text-align:center; 
+	box-shadow: 5px 5px 5px #000;
+	border-radius: 5px 5px 5px 5px;
+	padding: 5px 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #f7eccb;
+	background-color: #FF1709;
+    font-weight: 600;
+}
+.cta a:hover{
+	background-color: #fb9840;
+	color: #191a1c;
+    font-weight: 600;
+}
+
+
+.footer {
+	margin-top: 0;
+	padding: 30px;
+	background-color: #191a1c;
+	color: #fb9840;
+}
+.footer p{
+	text-align:center;
+    font-weight: 600;
+}
